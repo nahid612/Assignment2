@@ -1,0 +1,248 @@
+/* Work Sans Font from google font  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Shared Style */
+* {
+  font-family: "Mulish";
+}
+
+span {
+  color: #ff5400;
+}
+
+.button-design {
+  width: 174px;
+  height: 52px;
+  background: #ff5400;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* section one start */
+body {
+  padding: 32px 135px;
+}
+
+.header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-logo img {
+  width: 48px;
+  height: 56.008px;
+  margin-top: 24px;
+}
+
+.header-logo h2 {
+  font-size: 2.2rem;
+}
+
+.header-item ul {
+  display: flex;
+}
+
+.header-item ul li {
+  list-style: none;
+  padding-left: 44px;
+}
+
+.header-item ul li a {
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 10px 0px;
+}
+
+/* banner section start */
+.banner {
+  background: rgba(0, 0, 0, 0.4) url(images/banner.png);
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  background-blend-mode: darken;
+  opacity: 100%;
+}
+
+.banner h3 {
+  color: #fff;
+  padding-top: 106px;
+  font-family: "Mulish";
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.banner p {
+  width: 676px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 197px;
+  margin-top: -50px;
+}
+
+.banner .banner-button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 800px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 135px;
+  padding-right: 30px;
+}
+
+#button-all {
+  background: #fff;
+  width: 174px;
+  height: 52px;
+  border: none;
+  display: flex;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+#button-all input {
+  border: none;
+}
+
+#button-all i {
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.button-style {
+  display: flex;
+}
+
+.banner-button .button-style i {
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+/* section two start */
+.tour-container {
+  display: flex;
+  height: 694px;
+  gap: 20px;
+  padding-top: 90px;
+}
+
+.tour-terms h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.tour-terms p,
+li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Section Three start */
+.place-title h3 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.place-title p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.place-img-container .place-img1,
+.place-img2,
+.place-img3 {
+  display: flex;
+  gap: 24px;
+  margin: 24px 0px;
+}
+
+.place-img-container .place-img1 h4,
+.place-img2 h4,
+.place-img3 h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 132px;
+}
+
+.place-img1 .img1 {
+  background: url(images/Rectangle\ 5.png), no-repeat;
+  width: 573px;
+  height: 300px;
+}
+
+.place-img1 .img2 {
+  background: url(images/Rectangle\ 8.png) no-repeat;
+  width: 573px;
+  height: 300px;
+}
+
+.img3 {
+  background: url(images/Rectangle\ 6.png) no-repeat;
+  width: 374px;
+  height: 286px;
+}
+
+.img4 {
+  background: url(images/Rectangle\ 7.png) no-repeat;
+  width: 474px;
+  height: 286px;
+}
+
+.img5 {
+  background: url(images/Rectangle\ 9.png) no-repeat;
+  width: 274px;
+  height: 286px;
+}
+
+.img6 {
+  background: url(images/Rectangle\ 11.png);
+  width: 473px;
+  height: 300px;
+}
+
+.img7 {
+  background: url(images/Rectangle\ 10.png);
+  width: 673px;
+  height: 300px;
+}
+
+/* .place-img1{
+  width: calc((100% - 24px)/2);
+}
+.place-img2{
+  width: calc((100% - 24px)/3);
+}
+.place-img3{
+  width: calc((100% - 24px)/2);
+} */
