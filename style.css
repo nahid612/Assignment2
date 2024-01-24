@@ -144,7 +144,6 @@ body {
   width: 174px;
   height: 52px;
   border: none;
-  display: flex;
   border-radius: 8px;
   padding-left: 10px;
 }
@@ -156,10 +155,6 @@ body {
 #button-all i {
   margin-left: -20px;
   margin-top: 20px;
-}
-
-.button-style {
-  display: flex;
 }
 
 .banner-button .button-style i {
@@ -204,10 +199,6 @@ li {
 .place-img-container img {
   width: 100%;
   height: 100%;
-}
-
-.place-img-container > div {
-  flex: 1;
 }
 
 .place-img1,
@@ -260,11 +251,11 @@ li {
   padding-top: 32px;
 }
 
-.service-box1-img h5 {
+/* .service-box1-img h5 {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
-}
+} */
 
 .service-box3 {
   width: 428px;
@@ -426,4 +417,143 @@ li {
   align-items: center;
   margin: 24px 0;
   margin-left: 266px;
+}
+
+/* Responsive section start */
+@media screen and (max-width: 600px) {
+  main {
+    padding: 10px 10px;
+  }
+  .option{
+    display: none;
+  }
+  .header-item,
+  .tour-container,
+  .place-img1,
+  .place-img3,
+  .place-img2,
+  .service-box1,
+  .section4-container {
+    flex-direction: column;
+  }
+  .banner .banner-button{
+    width: 215px;
+    height: 300px;
+    margin-left: 62px;
+    flex-direction: column;
+  }
+  .button-design{
+    width: 186px;
+    margin-left: -8px;
+  }
+  .banner,
+  .tour-container,
+  .tour-img img,
+  .shared-paraghrap{
+    width: 376px;
+  }
+  .banner h3 {
+    font-size: 1.5rem;
+    padding-top: 32px;
+  }
+  .banner p,
+  .tour-img img,
+  .shared-paraghrap {
+    margin: 0;
+  }
+  .shared-text,
+  .tour-terms h2,
+  .pera {
+    font-size: 20px;
+  }
+  .text-light {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .place-title {
+    margin-top: 310px;
+  }
+  .place-img1 {
+    width: 376px;
+    height: auto;
+    top: -100px;
+  }
+  .place-img1 .img2 {
+    margin-top: -82px;
+  }
+  .place-img2 .img3 {
+    width: 376px;
+    height: 196px;
+    margin-top: -82px;
+  }
+  .place-img2 .img4,
+  .place-img2 .img5,
+  .place-img3 .img6,
+  .place-img3 .img7 {
+    width: 376px;
+    height: 196px;
+  }
+
+  .place-img3 {
+    margin-top: 292px;
+  }
+  .place-img-container .place-img1 h4,
+  .place-img2 h4,
+  .place-img3 h4 {
+    top: 142px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .service-box1-img,
+  .service-box2-img,
+  .service-box3 {
+    width: 287px;
+    height: 255px;
+  }
+  .service-box img {
+    width: 48px;
+    height: 48px;
+  }
+  .service-box3{
+    margin-left: 0;
+    padding-top: 20px;
+  }
+  .newsletter{
+    width: 330px;
+    padding: 22px;
+  }
+  .newsletter .line,
+  .news-btn {
+    width: 330px;
+  }
+  .newsletter input{
+    width: 309px;
+  }
+  .section4-img img{
+    width: 376px;
+    height: 390px;
+  }
+  .discount{
+    width: 244px;
+    height: 105px;
+    margin-top: -203px;
+    margin-left: 122px;
+  }
+  .footer{
+    width: 376px;
+    height: 310px;
+    margin-left: -40px;
+    padding: 40px;
+  }
+  .footer-logo{
+    padding-top: 0;
+  }
+  .icon{
+    margin: 10px 80px;
+  }
+  .line2{
+    width: 342px;
+    margin: 0;
+  }
 }
