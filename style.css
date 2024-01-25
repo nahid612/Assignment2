@@ -185,6 +185,11 @@ li {
 }
 
 /* Section Three start */
+.place-title .shared-paraghrap,
+.service-container .shared-paraghrap
+{
+  margin-left: 150px;
+}
 .place-img-container .place-img1 h4,
 .place-img2 h4,
 .place-img3 h4 {
@@ -251,11 +256,6 @@ li {
   padding-top: 32px;
 }
 
-/* .service-box1-img h5 {
-  color: #131318;
-  font-size: 24px;
-  font-weight: 800;
-} */
 
 .service-box3 {
   width: 428px;
@@ -422,7 +422,7 @@ li {
 /* Responsive section start */
 @media screen and (max-width: 600px) {
   main {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
   }
   .option{
     display: none;
@@ -444,7 +444,6 @@ li {
   }
   .button-design{
     width: 186px;
-    margin-left: -8px;
   }
   .banner,
   .tour-container,
@@ -452,19 +451,33 @@ li {
   .shared-paraghrap{
     width: 376px;
   }
+  .header-logo{
+    margin-left: 115px;
+    margin-bottom: 16px;
+  }
+  .header-logo h2{
+    display: flex;
+  }
   .banner h3 {
     font-size: 1.5rem;
     padding-top: 32px;
   }
-  .banner p,
+  .banner p{
+    margin-left: -145px;
+    margin-top: 0px;
+  }
   .tour-img img,
   .shared-paraghrap {
     margin: 0;
+  } 
+  .place-title .shared-paraghrap, .service-container .shared-paraghrap {
+    margin-left: 0;
   }
   .shared-text,
   .tour-terms h2,
   .pera {
     font-size: 20px;
+    width: 388px;
   }
   .text-light {
     font-size: 14px;
